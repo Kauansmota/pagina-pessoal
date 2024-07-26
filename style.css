@@ -27,13 +27,13 @@ header{
     align-items:center;
 }
 
-.titulo_site{
+.titulo.titulo.site{
     padding: 50px;
     text-align: center;
     width: 50%;
     font: 60px;
 }
-.ic{
+.icone{
     display: flex;
     justify-content:flex-end;
     width: 25%;
