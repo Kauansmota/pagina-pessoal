@@ -12,30 +12,3 @@ header{
 
 }
 
-.cabeçalho-itens{
-        max-width: 1980px;
-        margin:0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
-.cabecalho-imagens{
-    width: 10%;
-    display:flex;
-    justify-content: flex-start;
-    align-items:center;
-}
-
-.titulo.titulo.site{
-    padding: 50px;
-    text-align: center;
-    width: 50%;
-    font: 60px;
-}
-.icone{
-    display: flex;
-    justify-content:flex-end;
-    width: 25%;
-    padding-right: 30px;
-}
