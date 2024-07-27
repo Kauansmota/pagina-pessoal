@@ -46,3 +46,9 @@
     padding-right: 30px;
 
   }
+
+    .introducao-img{
+   justify-content: flex-end;
+   align-items: center;
+padding: 60px;
+    }
