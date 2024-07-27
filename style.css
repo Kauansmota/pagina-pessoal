@@ -2,13 +2,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  }
+  
+  body{
+  font-family: "Poppins", sans-serif;
+  }
+  
+  header{
+  background-color: #424e61;
+  color: white;
+  width: 100%;
+  padding: 40px;
+  
+  }
+
+.cabecalho{
+  max-width: 1980px;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-header{
-    background-color: rgb(170, 141, 141);
-    color: white;
-    width: 100%;
-    padding: 40px;
+  .cabecalho-title{
+    padding: 50px;
+        text-align: center;
+        width: 50%;
+        font: 60px;
+  }  
 
-}
+  .cabecalho-img{
+    width: 10%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
 
+  }
+
+  .cabecalho-icone{
+    display: flex;
+    justify-content:flex-end;
+    width: 25%;
+    padding-right: 30px;
+
+  }
