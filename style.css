@@ -85,3 +85,10 @@
     text-align: center;
     padding: 1px ;
     }
+
+    .foto-perfil{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+
+    }
