@@ -53,10 +53,26 @@
 padding: 60px;
     }
 
+  .introducao{
+   background-color: burlywood;
+   color: white;
+   width: 100%;
+   padding: 40px;
+
+
+  }
     
   .sociais{
     display: flex;
     justify-content:flex-start;
     width: 25%;
-    
+
+    }
+
+    .introducao-title{
+      padding: 50px;
+      text-align: center;
+      width: 50%;
+      font: 60px;
+
     }
