@@ -89,7 +89,6 @@
     .foto-perfil{
      display: flex;
      justify-content: flex-end;
-     align-items: center;
-     width: 10%;
+     width: 30%;
 
     }
