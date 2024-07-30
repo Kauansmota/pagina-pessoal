@@ -55,8 +55,8 @@ padding: 60px;
 
     
   .sociais{
-  width: 10%;
-  height: 10% ;
-
-
+    display: flex;
+    justify-content:flex-start;
+    width: 25%;
+    
     }
