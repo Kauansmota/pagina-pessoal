@@ -78,3 +78,10 @@
       font: 60px;
 
     }
+
+    .introducao-list{
+    font: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 5px ;
+    }
