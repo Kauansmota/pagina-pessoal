@@ -93,10 +93,28 @@
 
     }
 
+    .desenvolvimento{
+      background-color: #b9e7a7;
+   color: rgb(255, 255, 255);
+   width: 100%;
+   padding: 40px;
+
+    }
+
     .desenvolvimento-title{
       padding: 50px;
         text-align: center;
         width: 50%;
         font: 60px;
    
+    }
+
+    .text-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font: 50px;
+
+
     }
