@@ -49,13 +49,18 @@
  
   .introducao{
     display: flex;
-    
     justify-content: space-around;     
-
     background-color: #bbdefb;
     height: 100%;
     padding: 15px;
     gap: 5px;
+
+  }
+
+  .foto-perfil{
+ width: 25%;
+ 
+
 
   }
 
