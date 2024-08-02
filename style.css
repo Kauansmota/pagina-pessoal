@@ -59,16 +59,14 @@
   
 
   .foto-perfil{
-
- width: 15%;
- 
-
-
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
   }
 
     .sociais{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 30%;
     align-items: center;
     }
