@@ -80,18 +80,11 @@
 
     .introducao-list{
     font: 30px;
-    width: 40%;
+    width: 50%;
     text-align: center;
-    padding: 1px ;
+    padding: 30px ;
     }
 
-    .foto-perfil{
-     display: flex;
-     align-items: center;
-     justify-content:center;
-     width: 25%;
-
-    }
 
     .desenvolvimento{
       background-color: #b9e7a7;
