@@ -48,10 +48,14 @@
   }
  
   .introducao{
-  background-color: burlywood;
-  color: azure;
-  width: 100%;
-  padding: 40px;
+    display: flex;
+    
+    justify-content: space-around;     
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
 
   }
 
