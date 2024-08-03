@@ -47,13 +47,10 @@
 
   }
  
-  .introducao{
-    display: flex;
-    justify-content: space-around;     
+  .introducao{    
     background-color: #bbdefb;
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
+    color: azure;
+    width: 100%;
 
   }
   
@@ -61,8 +58,7 @@
     .sociais{
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    align-items: center;
+    width: 30%;
     }
 
 
