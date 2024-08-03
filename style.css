@@ -58,16 +58,10 @@
   }
   
 
-  .foto-perfil{
-    display: flex;
-    justify-content: flex-end;
-    width: 15%;
-  }
-
     .sociais{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 50%;
     align-items: center;
     }
 
