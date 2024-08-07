@@ -50,16 +50,16 @@
   .introducao{    
     background-color: #bbdefb;
     color: azure;
-    width: 1440px;
+    width: 100%;
 
   }
   
 
     .sociais{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around
     align-items: center;
-    width: 70px;
+    width: 100px;
     }
 
 
