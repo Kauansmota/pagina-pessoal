@@ -50,10 +50,6 @@
   .introducao{    
     background-color: #bbdefb;
     color: azure;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-
 
   }
   
@@ -62,7 +58,7 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 100%;
+    width: 30%;
     }
 
 
