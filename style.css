@@ -55,12 +55,22 @@
   }
   
 
-    .sociais{
+   .sociais1{
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    width: 30%;
-    }
+    justify-content: flex-start;
+   }
+
+   .sociais2{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+   }
+
+   .sociais3{
+display: flex;
+justify-content: flex-end;
+
+   }
 
 
 
@@ -85,7 +95,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+  
     font: 70px;
 
 
