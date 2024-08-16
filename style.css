@@ -94,9 +94,7 @@ justify-content: flex-end;
     }
 
     .text-one{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   
     font: 70px;
 
