@@ -50,17 +50,17 @@
   .introducao{    
     background-color: #bbdefb;
     color: azure;
-    width: 100%;
+    width: 25%;
     display: flex;
     justify-content: center;
-    
+
 
   }
   
 
     .sociais{
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
     align-items: center;
     width: 100%;
     }
