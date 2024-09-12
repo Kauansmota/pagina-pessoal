@@ -1,3 +1,4 @@
+@keyframes
 *{
   margin: 0;
   padding: 0;
@@ -87,3 +88,12 @@
 
 
     }
+
+        .list[
+          @keyframes identifier {
+            input delay[1000 miliseconds]
+            feDropShadow
+          }
+        
+
+        ]
