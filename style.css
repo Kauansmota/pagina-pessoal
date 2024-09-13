@@ -51,7 +51,9 @@
   .introducao{    
     background-color: #bbdefb;
     color: azure;
-    padding: 24px 0;
+    width: 100%;
+    padding: 40px;
+
     
 
   }
