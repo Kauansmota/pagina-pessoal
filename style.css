@@ -1,91 +1,62 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
-  
-  body{
-  font-family: "Poppins", sans-serif;
-  }
-  
-  header{
-  background-color: #424e61;
-  color: white;
-  width: 100%;
-  padding: 40px;
-  
-  }
-
-.cabecalho{
-  max-width: 1980px;
-  margin:0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 0.8em;
+  margin: 0px;
+  background: black;
 }
 
-  .cabecalho-title{
-    padding: 50px;
-        text-align: center;
-        width: 50%;
-        font: 60px;
-  }  
+nav,
+section,
+article {
+  margin: 5px;
+  padding: 8px;
+}
 
-  .cabecalho-img{
-    width: 10%;
-    display:flex;
-    justify-content: flex-start;
-    align-items:center;
+#content {
+  text-align: center;
+}
 
-  }
+header,
+footer {
+  background-color: Red;
+  color: green;
+  padding: 5px;
+  margin: 0;
+}
 
-  .cabecalho-icone{
-    display: flex;
-    justify-content:flex-end;
-    width: 10%;
-    padding-right: 20px;
+h1 {
+  text-align: center;
+}
 
-  }
- 
-  .introducao{    
-    background-color: #bbdefb;
-    color: azure;
-    width: 100%;
-    padding: 40px;
-    display: flex;
-    justify-content: space-around;
+button {
+  width: 60px;
+  text-align: center;
+  font-size: 35px;
+  background-color: red;
+  color: black;
+  border: cornflowerblue solid 1px;
+  box-shadow: 1px 2px 3px 1px green;
+  text-shadow: 1px 1px 3px green;
+}
 
-    
+input {
+  width: 250px;
+  font-size: 30px;
+  background-color: red;
+  color: black;
+  border: cornflowerblue solid 1px;
+  text-align: right;
+  box-shadow: 1px 2px 3px 1px green;
+  text-shadow: 1px 1px 3px blue;
+}
 
-  }
-  
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 
-   .sociais{
-    display: flex;
-    justify-content: center
- 
- 
-   }
+nav ul li {
+  display: inline;
+  margin: 5px;
+}
 
-
-
-    .desenvolvimento{
-      background-color: #45bbdf;
-      color: rgb(255, 255, 255);
-      padding: 40px;
-
-    }
-
-    .desenvolvimento-title{
-      text-align: center;
-      padding: 50px;
-      
-   
-    }
-
-    .text-one{
-    text-align: center;
-    padding: 50px;
-    color: black;
-    font: 50%;
-    }

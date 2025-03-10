@@ -3,43 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/8509/8509176.png" type="image/x-icon">
-    <title>minha pagina pessoal</title>
-    <title> Sobre mim</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="tyle.css">
+   <script src="java.js"></script>
 </head>
-<body>
-     <header class="cabecalho">
-     <img class="cabecalho-img" src="https://cdn-icons-png.flaticon.com/128/8509/8509176.png" alt="icone">
-     <h1 class="cabecalho-title"> Sobre Mim</h1>
-     <img class="cabecalho-icone" src="https://cdn-icons-png.flaticon.com/128/4792/4792929.png" alt="">
+<html>
+   <head>
+      <title>Aula</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style type="text/css">
+      body{
+         background: gray url(Image/mosaico.jpg) repeat;
+      }
+      </style>
+      <link href="estilos.css" rel="stylesheet" type="text/css">
+      <script>
+      //alert("Ola mundo");
+      function ola(x){
+         var f=document.getElementById("frm");
+         var txt = f.txtnome;
+         txt.value = "Ola "+txt.value;
+      }
 
-</header>
-<!--introduçao-->
+      function soma() {
+         //alert("1");
+         var f=document.getElementById("frm");
+         var n1=document.getElementById("n1").value;
+         var n2=document.getElementById("n2").value;
+         var soma = n1 + n2 ;
+         alert(soma);
+      }
 
-    <section class="introducao">
+      function subtracao() {
+         var f=document.getElementById("frm");
+         var n1=document.getElementById("n1").value;
+         var n2=document.getElementById("n2").value;
+         var soma = n1 - n2 ;
+         alert(soma);
+      } 
 
-        <img class="sociais" src="png_facebook.png" alt="facebook"></a>
-        <img class="sociais" src="png.insta.png" alt="insta"></a>
-        <img class="sociais" src="png_github.png" alt="github">
-        <img class="sociais" src="png.wapp.png" alt="wapp">
-    
-    </section> 
- 
+      function multiplicacao() {
+         var f=document.getElementById("frm");
+         var n1=document.getElementById("n1").value;
+         var n2=document.getElementById("n2").value;
+         var soma = n1 * n2 ;
+         alert(soma);
+      } 
+
+      function divisao() {
+         var f=document.getElementById("frm");
+         var n1=document.getElementById("n1").value;
+         var n2=document.getElementById("n2").value;
+         var soma = n1 / n2 ;
+         alert(soma);
+      } 
+
+      function mostrarresultados() {
+
+      }
+
+      function limpar(){
+         //alert("1");
+         var f=document.getElementById("frm");
+         var n1 = f.n1;
+         var n2 = f.n2;
+
+         n1.value = "";
+         n2.value = "";
+      }
+      </script>
+
+   </head>
+   <body>
+   <form id="frm"  >
+      <div id="container">
+         <div id="topo"> 
+            <h1>Aula de Web</h1>
+         </div>
+
+         <div id="menu">
+         </div>
+
+         <div id="left">
+            <div class="bloco">
+               <span>Nome:</span>
+               <input type="text" name="txtnome" placeholder="Introduza o seu nome">
+               <input id="enviar" type="button" value="Enviar" onClick="ola('Ola')">
+            </div>
+            <div class="bloco1">
+               <span>Introduza os numeros:</span><br>
+               <input type="text" size="2" name="n1" placeholder="n1"><br>
+               <input type="text" size="2"  name="n2" placeholder="n2"><br><br>
+               <input type="button" value="+" onClick="soma()">
+               <input type="button" value="-" onClick="subtracao('')">
+               <input type="button" value="*" onClick="multiplicacao('')">
+               <input type="button" value="/" onClick="divisao('')"><br><br>
+               <input type="button" value="Limpar" onClick="limpar()"/>
+               <input type="button" value="Enviar" onClick="ola('Ola')">
+            </div>
+         </div>
+
+         <div id="right">
+            <img id="mario1" src="Image/mario1.jpg" alt=""/>
+            <img id="mario2" src="Image/mario2.jpg" alt=""/>      
+         </div>
+
+         <div id="bottom">
+
+         </div>
+      </div>
+   </form>
 
 
-    <div class="desenvolvimento">
-        <h1 class="desenvolvimento-title"> Um pouco sobre mim</h1>
-        <p class="text-one">
-        Olá. Meu nome é Kauan da Silva Mota, tenho 16 anos, moro na cidade de Araucaria/Paraná<br>Como qualquer menino eu sou um belo sonhador, tenho varios sonhos, e tenho fé que um dia eles irão se realizar <br> Nascido em 2008 eu sempre tive uma otima vida, até meus 10 anos meus pais tinham uma condição financeira razoavel, mas ao longo dos anos isso foi só melhorando. Amo meus pai mais que tudo no mundo, sempre me deram oque eu precisava, amor, carinho entre outras coisas. <br> tenho um sonho de me tornar rico, atraves do meu esforço e dedicaçao, gostaria de ser um otimo programador, mas tambem gostaria de abrir minha loja de carros, sempre tive um apreço muito grande por carros, desde pequeno sempre me inteirecei neles, e isso só vem aumentando cada dia conhecendo como funcionam e as historia por tras de cada modelo de carro. <br> Atualmente estou cursando o ensino medio na escola Helena Wysocki no curso de desenvolvimento de sistemas. Faço cursos por fora da escola, em EAD de programaçao em html.
-
-        </p>
-
-    </div>
-    
-</body>
-
-
-
-</body>
+   <section>
+    <article>
+     <div id='content'>
+       <div id='content-app'>
+         <input type='text' id='field1' readonly value='0' />
+         <br /><br />
+         <button onclick='writeNumber(this)' id='n1'>1</button>
+         <button onclick='writeNumber(this)' id='n2'>2</button>
+         <button onclick='writeNumber(this)' id='n3'>3</button>
+         <button onclick='writeNumber(this)' id='n4'>4</button>
+         <br /><br />
+         <button onclick='writeNumber(this)' id='n5'>5</button>
+         <button onclick='writeNumber(this)' id='n6'>6</button>
+         <button onclick='writeNumber(this)' id='n7'>7</button>
+         <button onclick='writeNumber(this)' id='n8'>8</button>
+         <br /><br />
+         <button onclick='writeNumber(this)' id='n9'>9</button>
+         <button onclick='writeNumber(this)' id='n0'>0</button>
+         <button onclick='setDecimal(this,true)' id='dec'></button>
+         <button onclick='setOperator(this)' id='sum'>+</button>
+         <br /><br />
+         <button onclick='setOperator(this)' id='sustract'>-</button>
+         <button onclick='setOperator(this)' id='multi'>*</button>
+         <button onclick='setOperator(this)' id='divide'>/</button>
+         <button onclick='cleartxt()' id='C'>C</button>
+         <br /><br />
+         <button onclick='calculate()' id='calcular' style='width:190px'>=</button>
+         <button onclick='removeLastNumber()' id='removeLast'>B</button>
+       </div>
+     </div>
+     <br />
+     <br /><br />
+   </article>
+ </section>
+   </body>
 </html>
